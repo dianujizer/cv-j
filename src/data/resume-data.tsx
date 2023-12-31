@@ -18,7 +18,7 @@ import Minimal from "../images/logos/minimal.svg";
 import { GitHubIcon } from "@/components/icons/GitHubIcon";
 import { LinkedInIcon } from "@/components/icons/LinkedInIcon";
 import { XIcon } from "@/components/icons/XIcon";
-import React from 'react';
+
 import GoogleScholarIcon from './gs.svg'; // Make sure the path to gs.svg is correct
 
 
