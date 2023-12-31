@@ -4,68 +4,67 @@
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 224 71.4% 4.1%;
+    /* Default (light) theme colors */
+    --background: 220 14.3% 95.9%; /* Light background */
+    --foreground: 220 8.9% 46.1%; /* Darker text for contrast */
 
-    --card: 0 0% 100%;
-    --card-foreground: 224 71.4% 4.1%;
+    --card: 220 13% 91%; /* Light card background */
+    --card-foreground: 220 8.9% 46.1%; /* Consistent with text color */
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 224 71.4% 4.1%;
+    --popover: 220 13% 91%; /* Light popover background */
+    --popover-foreground: 220 8.9% 46.1%;
 
-    --primary: 220.9 39.3% 11%;
-    --primary-foreground: 210 20% 98%;
+    --primary: 220.9 39.3% 50%; /* Primary color */
+    --primary-foreground: 0 0% 100%; /* White for primary elements */
 
-    --secondary: 220 14.3% 95.9%;
-    --secondary-foreground: 220.9 39.3% 11%;
+    --secondary: 220 14.3% 80%; /* Secondary color */
+    --secondary-foreground: 0 0% 100%; /* White for secondary elements */
 
-    --muted: 220 14.3% 95.9%;
-    --muted-foreground: 220 8.9% 46.1%;
+    --muted: 220 14.3% 80%; /* Muted color */
+    --muted-foreground: 220 8.9% 46.1%; /* Darker for muted text */
 
-    --accent: 220 14.3% 95.9%;
-    --accent-foreground: 220.9 39.3% 11%;
+    --accent: 220 14.3% 80%; /* Accent color */
+    --accent-foreground: 0 0% 100%; /* White for accent elements */
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 20% 98%;
+    --destructive: 0 84.2% 60.2%; /* Destructive action color */
+    --destructive-foreground: 0 0% 100%; /* White for destructive elements */
 
-    --border: 220 13% 91%;
-    --input: 220 13% 91%;
-    --ring: 224 71.4% 4.1%;
+    --border: 220 13% 91%; /* Light border color */
+    --input: 220 13% 91%; /* Light input fields */
+    --ring: 224 71.4% 4.1%; /* Ring color */
 
     --radius: 0.5rem;
   }
 
   .dark {
-    /* Dark theme colors */
-    --background: 0 0% 15%; /* Dark background */
-    --foreground: 210 20% 98%; /* Lighter text for contrast */
+    --background: 0 0% 15%; /* Example: Black with 15% lightness */
+    --foreground: 0 0% 85%; /* Example: Light gray for contrast */
 
-    --card: 0 0% 18%; /* Slightly lighter than background for distinction */
-    --card-foreground: 210 20% 98%; /* Consistent with text color */
+    --card: 0 0% 15%;
+    --card-foreground: 0 0% 85%;
 
-    --popover: 0 0% 18%; /* Similar to card for consistency */
+    --popover: 224 71.4% 4.1%;
     --popover-foreground: 210 20% 98%;
 
-    --primary: 220.9 39.3% 50%; /* Primary color (adjust as needed) */
-    --primary-foreground: 210 20% 98%;
+    --primary: 210 20% 98%;
+    --primary-foreground: 220.9 39.3% 11%;
 
-    --secondary: 220 14.3% 40%; /* Secondary color (adjust as needed) */
+    --secondary: 215 27.9% 16.9%;
     --secondary-foreground: 210 20% 98%;
 
-    --muted: 220 14.3% 30%; /* Muted elements */
-    --muted-foreground: 210 20% 98%;
+    --muted: 215 27.9% 16.9%;
+    --muted-foreground: 217.9 10.6% 64.9%;
 
-    --accent: 220 14.3% 50%; /* Accent elements */
+    --accent: 215 27.9% 16.9%;
     --accent-foreground: 210 20% 98%;
 
-    --destructive: 0 84.2% 40%; /* Destructive actions */
+    --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 210 20% 98%;
 
-    --border: 0 0% 30%; /* Darker borders */
-    --input: 0 0% 18%; /* Dark input fields */
-    --ring: 220.9 39.3% 50%; /* Rings for focus or highlight */
+    --border: 0 0% 20%; /* Dark borders */
+    --input: 0 0% 20%; /* Dark input fields */
+    --ring: 0 0% 85%; /* Light rings for contrast */
   }
-  
 }
 
 @layer base {
