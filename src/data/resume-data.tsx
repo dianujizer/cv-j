@@ -19,8 +19,7 @@ import { GitHubIcon } from "@/components/icons/GitHubIcon";
 import { LinkedInIcon } from "@/components/icons/LinkedInIcon";
 import { XIcon } from "@/components/icons/XIcon";
 
-import GoogleScholarIcon from '../images/logos/parabol.svg'; // Make sure the path to gs.svg is correct
-
+import { GS } from "@/components/icons/GS";
 
 
 export const RESUME_DATA = {
@@ -47,7 +46,7 @@ export const RESUME_DATA = {
       {
         name: "Google Scholar",
         url: "https://scholar.google.com/citations?user=03BvsCEAAAAJ&hl=en",
-        icon: GoogleScholarIcon,
+        icon: GS,
       },
 
       // {
