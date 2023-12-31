@@ -44,11 +44,11 @@ export const RESUME_DATA = {
         icon: GitHubIcon,
       },
       // create google scholar icon
-      // {
-      //   name: "Google Scholar",
-      //   url: "https://scholar.google.com/citations?user=03BvsCEAAAAJ&hl=en",
-      //   icon: GoogleScholarIcon
-      // },
+      {
+        name: "Google Scholar",
+        url: "https://scholar.google.com/citations?user=03BvsCEAAAAJ&hl=en",
+        icon: GoogleScholarIcon
+      },
 
       // {
       //   name: "LinkedIn",
