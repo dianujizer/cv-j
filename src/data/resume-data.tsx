@@ -18,15 +18,9 @@ import Minimal from "../images/logos/minimal.svg";
 import { GitHubIcon } from "@/components/icons/GitHubIcon";
 import { LinkedInIcon } from "@/components/icons/LinkedInIcon";
 import { XIcon } from "@/components/icons/XIcon";
-
 import React from 'react';
+import GoogleScholarIcon from './gs.svg'; // Make sure the path to gs.svg is correct
 
-// Google Scholar Icon Component (SVG)
-const GoogleScholarIcon = () => (
-  <svg width="24" height="24" viewBox="0 0 24 24">
-    {GoogleScholarIcon}
-  </svg>
-);
 
 
 export const RESUME_DATA = {
@@ -53,7 +47,7 @@ export const RESUME_DATA = {
       {
         name: "Google Scholar",
         url: "https://scholar.google.com/citations?user=03BvsCEAAAAJ&hl=en",
-        icon: <GoogleScholarIcon />
+        icon: GoogleScholarIcon
       },
 
       // {
