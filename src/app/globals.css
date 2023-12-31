@@ -36,11 +36,11 @@
   }
 
   .dark {
-    --background: 224 71.4% 4.1%;
-    --foreground: 210 20% 98%;
+    --background: 0 0% 15%; /* Example: Black with 15% lightness */
+    --foreground: 0 0% 85%; /* Example: Light gray for contrast */
 
-    --card: 224 71.4% 4.1%;
-    --card-foreground: 210 20% 98%;
+    --card: 0 0% 15%;
+    --card-foreground: 0 0% 85%;
 
     --popover: 224 71.4% 4.1%;
     --popover-foreground: 210 20% 98%;
@@ -60,9 +60,9 @@
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 210 20% 98%;
 
-    --border: 215 27.9% 16.9%;
-    --input: 215 27.9% 16.9%;
-    --ring: 216 12.2% 83.9%;
+    --border: 0 0% 20%; /* Dark borders */
+    --input: 0 0% 20%; /* Dark input fields */
+    --ring: 0 0% 85%; /* Light rings for contrast */
   }
 }
 
