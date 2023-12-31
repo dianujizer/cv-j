@@ -24,7 +24,7 @@ import React from 'react';
 // Google Scholar Icon Component (SVG)
 const GoogleScholarIcon = () => (
   <svg width="24" height="24" viewBox="0 0 24 24">
-    {/* Insert your SVG path data here */}
+    {GoogleScholarIcon}
   </svg>
 );
 
@@ -55,7 +55,7 @@ export const RESUME_DATA = {
         url: "https://scholar.google.com/citations?user=03BvsCEAAAAJ&hl=en",
         icon: <GoogleScholarIcon />
       },
-      
+
       // {
       //   name: "LinkedIn",
       //   url: "https://www.linkedin.com/in/bjarocki/",
