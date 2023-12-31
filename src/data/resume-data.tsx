@@ -62,10 +62,16 @@ export const RESUME_DATA = {
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      school: "Korea Aerospace University",
+      degree: "Master's Degree in Computer Information Systems and Network",
+      start: "2021",
+      end: "2023",
+    },
+    {
+      school: "National University of Sciences and Technology",
+      degree: "Bachelor's Degree in Electrical Engineering",
+      start: "2015",
+      end: "2020",
     },
   ],
   work: [
