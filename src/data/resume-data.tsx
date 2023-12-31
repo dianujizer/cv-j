@@ -19,6 +19,16 @@ import { GitHubIcon } from "@/components/icons/GitHubIcon";
 import { LinkedInIcon } from "@/components/icons/LinkedInIcon";
 import { XIcon } from "@/components/icons/XIcon";
 
+import React from 'react';
+
+// Google Scholar Icon Component (SVG)
+const GoogleScholarIcon = () => (
+  <svg width="24" height="24" viewBox="0 0 24 24">
+    {/* Insert your SVG path data here */}
+  </svg>
+);
+
+
 export const RESUME_DATA = {
   name: "Junaid Iqbal Khan",
   initials: "JI",
@@ -39,11 +49,18 @@ export const RESUME_DATA = {
         url: "https://github.com/dianujizer",
         icon: GitHubIcon,
       },
+      // create google scholar icon
       {
-        name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
-        icon: LinkedInIcon,
+        name: "Google Scholar",
+        url: "https://scholar.google.com/citations?user=03BvsCEAAAAJ&hl=en",
+        icon: <GoogleScholarIcon />
       },
+      
+      // {
+      //   name: "LinkedIn",
+      //   url: "https://www.linkedin.com/in/bjarocki/",
+      //   icon: LinkedInIcon,
+      // },
       // {
       //   name: "X",
       //   url: "https://x.com/BartoszJarocki",
