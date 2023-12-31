@@ -63,12 +63,14 @@ export const RESUME_DATA = {
   education: [
     {
       school: "Korea Aerospace University",
+      link: "https://www.kau.ac.kr/page/eng/index.jsp",
       degree: "Master's Degree in Computer Information Systems and Network",
       start: "2021",
       end: "2023",
     },
     {
       school: "National University of Sciences and Technology",
+      link: "https://www.nust.edu.pk/",
       degree: "Bachelor's Degree in Electrical Engineering",
       start: "2015",
       end: "2020",
