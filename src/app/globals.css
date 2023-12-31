@@ -36,34 +36,36 @@
   }
 
   .dark {
-    --background: 0 0% 15%; /* Example: Black with 15% lightness */
-    --foreground: 0 0% 85%; /* Example: Light gray for contrast */
+    /* Dark theme colors */
+    --background: 0 0% 15%; /* Dark background */
+    --foreground: 210 20% 98%; /* Lighter text for contrast */
 
-    --card: 0 0% 15%;
-    --card-foreground: 0 0% 85%;
+    --card: 0 0% 18%; /* Slightly lighter than background for distinction */
+    --card-foreground: 210 20% 98%; /* Consistent with text color */
 
-    --popover: 224 71.4% 4.1%;
+    --popover: 0 0% 18%; /* Similar to card for consistency */
     --popover-foreground: 210 20% 98%;
 
-    --primary: 210 20% 98%;
-    --primary-foreground: 220.9 39.3% 11%;
+    --primary: 220.9 39.3% 50%; /* Primary color (adjust as needed) */
+    --primary-foreground: 210 20% 98%;
 
-    --secondary: 215 27.9% 16.9%;
+    --secondary: 220 14.3% 40%; /* Secondary color (adjust as needed) */
     --secondary-foreground: 210 20% 98%;
 
-    --muted: 215 27.9% 16.9%;
-    --muted-foreground: 217.9 10.6% 64.9%;
+    --muted: 220 14.3% 30%; /* Muted elements */
+    --muted-foreground: 210 20% 98%;
 
-    --accent: 215 27.9% 16.9%;
+    --accent: 220 14.3% 50%; /* Accent elements */
     --accent-foreground: 210 20% 98%;
 
-    --destructive: 0 62.8% 30.6%;
+    --destructive: 0 84.2% 40%; /* Destructive actions */
     --destructive-foreground: 210 20% 98%;
 
-    --border: 0 0% 20%; /* Dark borders */
-    --input: 0 0% 20%; /* Dark input fields */
-    --ring: 0 0% 85%; /* Light rings for contrast */
+    --border: 0 0% 30%; /* Darker borders */
+    --input: 0 0% 18%; /* Dark input fields */
+    --ring: 220.9 39.3% 50%; /* Rings for focus or highlight */
   }
+  
 }
 
 @layer base {
